@@ -80,3 +80,28 @@ a:hover {
   color: var(--heading-color);
   text-decoration: underline;
 }
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.tabs a {
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.tabs a.active {
+  background: var(--accent-color);
+  color: white;
+}

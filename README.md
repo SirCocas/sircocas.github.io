@@ -16,7 +16,7 @@ Curriculum Vitae built with Jekyll for GitHub Pages.
 - `_thesis/` - Master's thesis (frontmatter: title, institution, year)
 - `_projects/` - Project contributions (frontmatter: title, role, dates)
 - `_miscellaneous/` - Awards, volunteering, events, speaking (set `category` frontmatter)
-- `_opinion/` - Opinion essays (frontmatter: title, date)
+- `_opinion/` - Opinion essays (frontmatter: title, date) - view at /opinion.html
 
 ## Customize Colors
 

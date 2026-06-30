@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <nav class="tabs">
+    <a href="/"{% if page.url == "/" %} class="active"{% endif %}>Curriculum Vitae</a>
+    <a href="/opinion.html"{% if page.url contains "opinion" %} class="active"{% endif %}>Opinion Essays</a>
+  </nav>
   <main class="cv-content">
     {{ content }}
   </main>
