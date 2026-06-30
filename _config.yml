@@ -1,0 +1,33 @@
+title: My Curriculum Vitae
+description: Professional CV with experience, education, research, and more
+remote_theme: pages-themes/minimal@v0.8.0
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-sep
+
+collections:
+  experience:
+    output: true
+    permalink: /experience/:name/
+  education:
+    output: true
+    permalink: /education/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+  thesis:
+    output: true
+    permalink: /thesis/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+  opinion:
+    output: true
+    permalink: /opinion/:name/
+  miscellaneous:
+    output: true
+    permalink: /miscellaneous/:name/
+
+sass:
+  style: compressed
