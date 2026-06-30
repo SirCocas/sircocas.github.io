@@ -2,6 +2,7 @@
 title: "Towards Byzantine Fault-resistance in Workflows: Challenges and Directions"
 venue: Journal of Mobile Multimedia
 year: 2026
+pdf: 
 ---
 
 # {{ page.title }}

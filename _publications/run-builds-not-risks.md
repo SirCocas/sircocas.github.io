@@ -2,6 +2,7 @@
 title: "Run Builds, Not Risks: Isolation in CI/CD Workflows"
 venue: Proceedings of the 31st IEEE Symposium on Computers and Communications (ISCC)
 year: 2026
+pdf: 
 ---
 
 # {{ page.title }}

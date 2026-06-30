@@ -2,6 +2,7 @@
 title: "Observing the Edge: Host Behavior as a Foundation for Workflow Security"
 venue: Proceedings of InForum
 year: 2025
+pdf: 
 ---
 
 # {{ page.title }}

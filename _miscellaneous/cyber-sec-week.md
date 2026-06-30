@@ -3,6 +3,7 @@ title: "Cyber Sec Week"
 organization: University of Aveiro
 year: 2022
 category: academic
+role: Organization
 ---
 
 # {{ page.title }}

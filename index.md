@@ -6,80 +6,99 @@ layout: default
 
 ## Experience
 
-{% for job in site.experience %}
-- **[{{ job.title }}]({{ job.url }})** — {{ job.organization }}, {{ job.location }}, {{ job.dates }}
+{% assign jobs = site.experience | sort: 'dates' | reverse %}
+{% for job in jobs %}
+- **{{ job.title }}** — {{ job.organization }}, {{ job.location }}, {{ job.dates }}
 {% endfor %}
 
 ## Education
 
-{% for edu in site.education %}
-- **[{{ edu.degree }}]({{ edu.url }})** — {{ edu.institution }}, {{ edu.location }}, {{ edu.dates }}
+{% assign edu = site.education | sort: 'dates' | reverse %}
+{% for edu in edu %}
+- **{{ edu.degree }}** — {{ edu.institution }}, {{ edu.location }}, {{ edu.dates }}
 {% endfor %}
 
 ## Research Publications
 
-{% for pub in site.publications %}
-- **[{{ pub.title }}]({{ pub.url }})** — {{ pub.venue }}, {{ pub.year }}
+{% assign pubs = site.publications | sort: 'year' | reverse %}
+{% for pub in pubs %}
+{% if pub.pdf %}
+- **[{{ pub.title }}]({{ pub.pdf }})** — {{ pub.venue }}, {{ pub.year }}
+{% else %}
+- **{{ pub.title }}** — {{ pub.venue }}, {{ pub.year }}
+{% endif %}
 {% endfor %}
 
 ## Theses
 
-{% for thesis in site.thesis %}
+{% assign theses = site.thesis | sort: 'year' | reverse %}
+{% for thesis in theses %}
 - **[{{ thesis.title }}]({{ thesis.url }})** — {{ thesis.institution }}, {{ thesis.year }}
 {% endfor %}
 
 ## Project Contributions
 
-{% for project in site.projects %}
-- **[{{ project.title }}]({{ project.url }})** — {{ project.role }}, {{ project.dates }}
+{% assign projects = site.projects | sort: 'dates' | reverse %}
+{% for project in projects %}
+- **{{ project.title }}** — {{ project.role }}, {{ project.dates }}
 {% endfor %}
 
 ## Miscellaneous
 
+{% assign misc = site.miscellaneous | sort: 'year' | reverse %}
+
 ### Awards
 
-{% for award in site.miscellaneous %}
-{% if award.category == "award" %}
-- **{{ award.title }}** — {{ award.organization }}, {{ award.year }}
+{% for item in misc %}
+{% if item.category == "award" %}
+- **{{ item.title }}** — {{ item.organization }}, {{ item.year }}
 {% endif %}
 {% endfor %}
 
 ### Academic Activities
 
-{% for activity in site.miscellaneous %}
-{% if activity.category == "academic" %}
-- **{{ activity.title }}** — {{ activity.role }}, {{ activity.year }}
+{% for item in misc %}
+{% if item.category == "academic" %}
+- **{{ item.title }}** — {{ item.role }}, {{ item.year }}
 {% endif %}
 {% endfor %}
 
 ### Volunteering
 
-{% for volunteer in site.miscellaneous %}
-{% if volunteer.category == "volunteer" %}
-- **{{ volunteer.title }}** — {{ volunteer.organization }}, {{ volunteer.year }}
+{% for item in misc %}
+{% if item.category == "volunteer" %}
+- **{{ item.title }}** — {{ item.organization }}, {{ item.year }}
 {% endif %}
 {% endfor %}
 
 ### Events Participation
 
-{% for event in site.miscellaneous %}
-{% if event.category == "event" %}
-- **{{ event.title }}** — {{ event.event }}, {{ event.year }}
+{% for item in misc %}
+{% if item.category == "event" %}
+{% if item.pdf %}
+- **[{{ item.title }}]({{ item.pdf }})** — {{ item.event }}, {{ item.year }}
+{% else %}
+- **{{ item.title }}** — {{ item.event }}, {{ item.year }}
+{% endif %}
 {% endif %}
 {% endfor %}
 
 ### Speaker
 
-{% for speak in site.miscellaneous %}
-{% if speak.category == "speaker" %}
-- **{{ speak.title }}** — {{ speak.event }}, {{ speak.year }}
+{% for item in misc %}
+{% if item.category == "speaker" %}
+{% if item.pdf %}
+- **[{{ item.title }}]({{ item.pdf }})** — {{ item.event }}, {{ item.year }}
+{% else %}
+- **{{ item.title }}** — {{ item.event }}, {{ item.year }}
+{% endif %}
 {% endif %}
 {% endfor %}
 
 ### Assorted Roles
 
-{% for role in site.miscellaneous %}
-{% if role.category == "role" %}
-- **{{ role.title }}** — {{ role.organization }}, {{ role.year }}
+{% for item in misc %}
+{% if item.category == "role" %}
+- **{{ item.title }}** — {{ item.organization }}, {{ item.year }}
 {% endif %}
 {% endfor %}
