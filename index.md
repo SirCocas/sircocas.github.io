@@ -22,7 +22,7 @@ layout: default
 - **[{{ pub.title }}]({{ pub.url }})** — {{ pub.venue }}, {{ pub.year }}
 {% endfor %}
 
-## Master's Thesis
+## Theses
 
 {% for thesis in site.thesis %}
 - **[{{ thesis.title }}]({{ thesis.url }})** — {{ thesis.institution }}, {{ thesis.year }}
