@@ -3,6 +3,7 @@ title: Isolated Act
 organization: University of Aveiro
 location: Aveiro
 dates: 2021
+year: 2021
 ---
 
 # {{ page.title }}

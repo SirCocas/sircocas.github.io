@@ -3,6 +3,7 @@ degree: PhD in Computer Science (MAP-i)
 institution: Universities of Minho, Aveiro and Porto
 location: Aveiro
 dates: 2024–
+year: 2024
 ---
 
 # {{ page.title }}

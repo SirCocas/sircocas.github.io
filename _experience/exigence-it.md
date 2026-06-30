@@ -3,6 +3,7 @@ title: Research Fellowship (BI) EXIGENCE
 organization: Instituto de Telecomunicações
 location: Aveiro
 dates: 2025–2026
+year: 2025
 ---
 
 # {{ page.title }}

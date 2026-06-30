@@ -3,6 +3,7 @@ degree: MSc in Cybersecurity
 institution: University of Aveiro
 location: Aveiro
 dates: 2021–2024
+year: 2021
 ---
 
 # {{ page.title }}

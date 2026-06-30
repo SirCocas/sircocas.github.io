@@ -6,14 +6,14 @@ layout: default
 
 ## Experience
 
-{% assign jobs = site.experience | sort: 'dates' | reverse %}
+{% assign jobs = site.experience | sort: 'year' | reverse %}
 {% for job in jobs %}
 - **{{ job.title }}** — {{ job.organization }}, {{ job.location }}, {{ job.dates }}
 {% endfor %}
 
 ## Education
 
-{% assign edu = site.education | sort: 'dates' | reverse %}
+{% assign edu = site.education | sort: 'year' | reverse %}
 {% for edu in edu %}
 - **{{ edu.degree }}** — {{ edu.institution }}, {{ edu.location }}, {{ edu.dates }}
 {% endfor %}
@@ -38,7 +38,7 @@ layout: default
 
 ## Project Contributions
 
-{% assign projects = site.projects | sort: 'dates' | reverse %}
+{% assign projects = site.projects | sort: 'year' | reverse %}
 {% for project in projects %}
 - **{{ project.title }}** — {{ project.role }}, {{ project.dates }}
 {% endfor %}
