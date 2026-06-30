@@ -1,22 +1,29 @@
-# Curriculum Vitae
+# sircocas.github.io
 
-This is a GitHub Pages CV built with Jekyll. Edit markdown files in the following directories to update content:
+Curriculum Vitae built with Jekyll for GitHub Pages.
 
-- `_experience/` - Work experience entries
-- `_education/` - Education entries  
-- `_publications/` - Research publications
-- `_thesis/` - Thesis entries
-- `_projects/` - Project contributions
-- `_miscellaneous/` - Awards, volunteering, events, speaking (set category in frontmatter)
-- `_opinion/` - Opinion essays
+## Quick Start
 
-Edit `index.md` to modify the main page structure.
+1. Clone or edit directly on GitHub
+2. Add entries in markdown to `_section/` folders
+3. Push to `main` branch - GitHub Pages builds automatically
 
-## Development
+## Sections
+
+- `_experience/` - Work experience (frontmatter: title, organization, location, dates)
+- `_education/` - Education (frontmatter: degree, institution, location, dates)
+- `_publications/` - Research publications (frontmatter: title, venue, year)
+- `_thesis/` - Master's thesis (frontmatter: title, institution, year)
+- `_projects/` - Project contributions (frontmatter: title, role, dates)
+- `_miscellaneous/` - Awards, volunteering, events, speaking (set `category` frontmatter)
+- `_opinion/` - Opinion essays (frontmatter: title, date)
+
+## Local Development
 
 ```bash
+gem install bundler
 bundle install
 bundle exec jekyll serve
 ```
 
-Visit http://localhost:4000 to preview changes.
+Visit http://localhost:4000
