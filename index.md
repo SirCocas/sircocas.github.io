@@ -10,7 +10,7 @@ layout: default
 - **[{{ job.title }}]({{ job.url }})** — {{ job.organization }}, {{ job.location }}, {{ job.dates }}
 {% endfor %}
 
-[Edit experience](_experience/) | [Add entry](_experience/template.md)
+[Edit experience](_experience/) | [Template](templates/experience-template.md)
 
 ---
 
@@ -20,7 +20,7 @@ layout: default
 - **[{{ edu.degree }}]({{ edu.url }})** — {{ edu.institution }}, {{ edu.location }}, {{ edu.dates }}
 {% endfor %}
 
-[Edit education](_education/) | [Add entry](_education/template.md)
+[Edit education](_education/) | [Template](templates/education-template.md)
 
 ---
 
@@ -30,7 +30,7 @@ layout: default
 - **[{{ pub.title }}]({{ pub.url }})** — {{ pub.venue }}, {{ pub.year }}
 {% endfor %}
 
-[Edit publications](_publications/) | [Add entry](_publications/template.md)
+[Edit publications](_publications/) | [Template](templates/publication-template.md)
 
 ---
 
@@ -40,7 +40,7 @@ layout: default
 - **[{{ thesis.title }}]({{ thesis.url }})** — {{ thesis.institution }}, {{ thesis.year }}
 {% endfor %}
 
-[Edit thesis](_thesis/) | [Add entry](_thesis/template.md)
+[Edit thesis](_thesis/) | [Template](templates/thesis-template.md)
 
 ---
 
@@ -50,7 +50,7 @@ layout: default
 - **[{{ project.title }}]({{ project.url }})** — {{ project.role }}, {{ project.dates }}
 {% endfor %}
 
-[Edit projects](_projects/) | [Add entry](_projects/template.md)
+[Edit projects](_projects/) | [Template](templates/project-template.md)
 
 ---
 
@@ -64,7 +64,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-[Add award entry](_miscellaneous/template.md?category=award)
+[Template](templates/misc-template.md) → set `category: award`
 
 ### Academic Activities
 
@@ -74,7 +74,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-[Add academic activity entry](_miscellaneous/template.md?category=academic)
+[Template](templates/misc-template.md) → set `category: academic`
 
 ### Volunteering
 
@@ -84,7 +84,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-[Add volunteering entry](_miscellaneous/template.md?category=volunteer)
+[Template](templates/misc-template.md) → set `category: volunteer`
 
 ### Events Participation
 
@@ -94,7 +94,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-[Add event entry](_miscellaneous/template.md?category=event)
+[Template](templates/misc-template.md) → set `category: event`
 
 ### Speaker
 
@@ -104,7 +104,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-[Add speaker entry](_miscellaneous/template.md?category=speaker)
+[Template](templates/misc-template.md) → set `category: speaker`
 
 ### Assorted Roles
 
@@ -114,7 +114,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-[Add role entry](_miscellaneous/template.md?category=role)
+[Template](templates/misc-template.md) → set `category: role`
 
 ---
 
@@ -124,8 +124,8 @@ layout: default
 - **[{{ essay.title }}]({{ essay.url }})** — {{ essay.date | date: "%B %Y" }}
 {% endfor %}
 
-[Edit essays](_opinion/) | [Add essay](_opinion/template.md)
+[Edit essays](_opinion/) | [Template](templates/essay-template.md)
 
 ---
 
-[Edit this page on GitHub](https://github.com/sircocas/sircocas.github.io/edit/main/index.md) | [Add miscellaneous entry](_miscellaneous/template.md)
+[Edit this page on GitHub](https://github.com/sircocas/sircocas.github.io/edit/main/index.md)

@@ -25,3 +25,6 @@ collections:
   miscellaneous:
     output: true
     permalink: /miscellaneous/:name/
+
+exclude:
+  - README.md

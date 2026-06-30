@@ -1,7 +1,7 @@
 ---
-title: 
-institution: 
-year: 
+title: Your Thesis Title
+institution: University Name
+year: 2025
 ---
 
 # {{ page.title }}
