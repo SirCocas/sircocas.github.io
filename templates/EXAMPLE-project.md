@@ -1,7 +1,7 @@
 ---
 title: Project Name
 role: Your Role
-dates: 2025–2026
+dates: 2023–Present
 ---
 
 # {{ page.title }}

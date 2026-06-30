@@ -4,9 +4,9 @@ Curriculum Vitae built with Jekyll for GitHub Pages.
 
 ## Quick Start
 
-1. Clone or edit directly on GitHub
-2. Add entries in markdown to `_section/` folders
-3. Push to `main` branch - GitHub Pages builds automatically
+1. Copy an example from `templates/EXAMPLE-*.md` to the appropriate `_section/` folder and rename it
+2. Edit the frontmatter and content, then push to `main` branch
+3. GitHub Pages builds automatically
 
 ## Sections
 
@@ -17,6 +17,15 @@ Curriculum Vitae built with Jekyll for GitHub Pages.
 - `_projects/` - Project contributions (frontmatter: title, role, dates)
 - `_miscellaneous/` - Awards, volunteering, events, speaking (set `category` frontmatter)
 - `_opinion/` - Opinion essays (frontmatter: title, date)
+
+## Customize Colors
+
+Edit `assets/css/style.scss` to change:
+- `--accent-color`: Link and border colors (default: #3498db)
+- `--text-color`: Body text (default: #333)
+- `--bg-color`: Background (default: #fafafa)
+- `--heading-color`: Headings (default: #2c3e50)
+- `--link-color`: Links (default: #3498db)
 
 ## Local Development
 

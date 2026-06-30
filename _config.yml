@@ -1,7 +1,6 @@
 ---
 title: My Curriculum Vitae
 description: Professional CV with experience, education, research, and more
-theme: jekyll-theme-minimal
 
 collections:
   experience:
@@ -25,6 +24,9 @@ collections:
   miscellaneous:
     output: true
     permalink: /miscellaneous/:name/
+
+sass:
+  style: compressed
 
 exclude:
   - README.md

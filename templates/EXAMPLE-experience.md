@@ -1,12 +1,12 @@
 ---
-title: Job Title
-organization: Company/Organization
+title: Your Job Title
+organization: Company Name
 location: Location
-dates: Year–Year
+dates: 2020–2023
 ---
 
 # {{ page.title }}
 
 *{{ page.organization }}, {{ page.location }} — {{ page.dates }}*
 
-Job description and responsibilities...
+Description of your role and achievements...
