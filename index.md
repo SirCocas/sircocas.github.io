@@ -126,10 +126,10 @@ layout: default
 
 {% for item in misc %}
 {% if item.category == "tpc" %}
-{% if item.pdf %}
-- **[{{ item.title }}]({{ item.pdf }})** — {{ item.event }}, {{ item.year }}
+{% if item.url %}
+- **[{{ item.title }}]({{ item.url }})**
 {% else %}
-- **{{ item.title }}** — {{ item.event }}, {{ item.year }}
+- **{{ item.title }}** 
 {% endif %}
 {% endif %}
 {% endfor %}
