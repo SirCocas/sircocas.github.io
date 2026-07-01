@@ -1,5 +1,5 @@
 ---
-title: "Collaborator in MSc thesis "
+title: Collaborator in MSc thesis
 organization: University of Aveiro
 year: 2025
 category: academic
