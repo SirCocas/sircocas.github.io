@@ -1,9 +1,9 @@
 ---
-title: "Collaborator in MSc thesis entitled Cloud Native Workflow Runtime Security"
+title: "Collaborator in MSc thesis "
 organization: University of Aveiro
 year: 2025
 category: academic
-role: Collaborator
+role: "Cloud Native Workflow Runtime Security"
 ---
 
 # {{ page.title }}

@@ -122,6 +122,19 @@ layout: default
 {% endif %}
 {% endfor %}
 
+## TPC
+
+{% for item in misc %}
+{% if item.category == "tpc" %}
+{% if item.pdf %}
+- **[{{ item.title }}]({{ item.pdf }})** — {{ item.event }}, {{ item.year }}
+{% else %}
+- **{{ item.title }}** — {{ item.event }}, {{ item.year }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+
 ## Speaker
 
 {% for item in misc %}

@@ -1,7 +1,7 @@
 ---
 title: "Talk de Mestrados"
 organization: University of Aveiro
-event: Q&A session about Cybersecurity Master's
+event: "Invited speaker to Q&A session about Cybersecurity Master's."
 year: 2025
 category: speaker
 pdf: 

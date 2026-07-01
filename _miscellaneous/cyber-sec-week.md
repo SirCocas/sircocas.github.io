@@ -1,6 +1,6 @@
 ---
 title: "Cyber Sec Week"
-organization: University of Aveiro
+organization: "Organization, CTF challenge creation, lecture on the exploration of vulnerable machines."
 year: 2022
 category: volunteer
 role: Organization
