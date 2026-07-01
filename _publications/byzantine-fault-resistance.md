@@ -3,8 +3,6 @@ title: "Towards Byzantine Fault-resistance in Workflows: Challenges and Directio
 venue: Journal of Mobile Multimedia
 year: 2026
 pdf: https://ieeexplore.ieee.org/abstract/document/11456387
-conference:
-slides:
 ---
 
 # {{ page.title }}
