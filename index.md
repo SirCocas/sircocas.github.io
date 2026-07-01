@@ -65,19 +65,28 @@ layout: default
 
 
 
-## Project Contributions
+## Main Contributions
+
+### Research Projects
 
 {% assign projects = site.projects | sort: 'year' | reverse %}
 {% for project in projects %}
 - **{{ project.title }}** — {{ project.role }}, {{ project.dates }}
-  {%- if project.link %}· [LINK]({{ project.link }}){% endif %}
+  {%- if project.link %}· [Website]({{ project.link }}){% endif %}
 {% endfor %}
 
-## Miscellaneous
+
+### Open Source
+
+{% assign opensource = site.opensource | sort: 'year' | reverse %}
+{% for open in opensource %}
+- **{{ open.title }}** — {{ open.description }}
+  {%- if open.link %}· [PR]({{ open.link }}){% endif %}
+{% endfor %}
 
 {% assign misc = site.miscellaneous | sort: 'year' | reverse %}
 
-### Awards
+## Awards
 
 {% for item in misc %}
 {% if item.category == "award" %}
@@ -85,7 +94,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-### Academic Activities
+## Academic Activities
 
 {% for item in misc %}
 {% if item.category == "academic" %}
@@ -93,7 +102,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-### Volunteering
+## Volunteering
 
 {% for item in misc %}
 {% if item.category == "volunteer" %}
@@ -101,7 +110,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-### Events Participation
+## Events Participation
 
 {% for item in misc %}
 {% if item.category == "event" %}
@@ -113,7 +122,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-### Speaker
+## Speaker
 
 {% for item in misc %}
 {% if item.category == "speaker" %}
@@ -125,7 +134,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-### Assorted Roles
+## Assorted Roles
 
 {% for item in misc %}
 {% if item.category == "role" %}
