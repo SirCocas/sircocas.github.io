@@ -9,6 +9,9 @@ layout: default
 {% assign jobs = site.experience | sort: 'year' | reverse %}
 {% for job in jobs %}
 - **{{ job.title }}** — {{ job.organization }}, {{ job.location }}, {{ job.dates }}
+{% if job.description %}
+{{job.description}}
+{% endif %}
 {% endfor %}
 
 ## Education
