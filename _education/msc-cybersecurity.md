@@ -4,6 +4,7 @@ institution: University of Aveiro
 location: Aveiro
 dates: 2021–2024
 year: 2021
+thesis: Secure Lifecycle for MEC Network Applications
 ---
 
 # {{ page.title }}

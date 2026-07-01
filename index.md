@@ -10,7 +10,8 @@ layout: default
 {% for job in jobs %}
 - **{{ job.title }}** — {{ job.organization }}, {{ job.location }}, {{ job.dates }}
 {% if job.description %}
-{{job.description}}
+**Main focus:** {{job.description}}
+
 {% endif %}
 {% endfor %}
 
@@ -19,6 +20,10 @@ layout: default
 {% assign edu = site.education | sort: 'year' | reverse %}
 {% for edu in edu %}
 - **{{ edu.degree }}** — {{ edu.institution }}, {{ edu.location }}, {{ edu.dates }}
+{% if edu.thesis %}
+**Thesis title:** {{edu.thesis}}
+
+{% endif %}
 {% endfor %}
 
 ## Research Publications
@@ -32,12 +37,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
-## Theses
 
-{% assign theses = site.thesis | sort: 'year' | reverse %}
-{% for thesis in theses %}
-- **[{{ thesis.title }}]({{ thesis.url }})** — {{ thesis.institution }}, {{ thesis.year }}
-{% endfor %}
 
 ## Project Contributions
 
