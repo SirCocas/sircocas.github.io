@@ -1,4 +1,5 @@
 ---
+title: PhD in Computer Science (MAP-i)
 degree: PhD in Computer Science (MAP-i)
 institution: Universities of Minho, Aveiro and Porto
 location: Aveiro
