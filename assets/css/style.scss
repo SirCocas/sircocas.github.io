@@ -2,11 +2,11 @@
 ---
 
 :root {
-  --accent-color: #70706d;
-  --text-color: #0f1116;
-  --bg-color: #f0eee9;
-  --heading-color: #70706d;
-  --link-color: #c7c1b3;
+  --accent-color: #0f1116; // <- inverted color for better contrast
+  --text-color: #272726;   // <- the one right before black
+  --bg-color: #f0eee9;    // <-- cloud dancer
+  --heading-color: #c7c1b3;  // <- 25% darker
+  --link-color: #f1eee8;   // <- 25% saturated
 }
 
 * {
@@ -50,7 +50,7 @@ h2 {
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid #f0eee9;
+  border-bottom: 1px solid var(--bg-color);
 }
 
 h3 {
@@ -87,7 +87,7 @@ a:hover {
   gap: 2rem;
   padding: 1.5rem;
   background: rgba(255,255,255,0.95);
-  border-bottom: 1px solid #f0eee9;
+  border-bottom: 1px solid var(--bg-color);
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
@@ -103,5 +103,5 @@ a:hover {
 
 .tabs a.active {
   background: var(--accent-color);
-  color: f0eee9;
+  color: var(--bg-color);
 }
