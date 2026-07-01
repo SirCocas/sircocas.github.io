@@ -5,7 +5,7 @@ institution: Universities of Minho, Aveiro and Porto
 location: Aveiro
 dates: 2024–
 year: 2025
-thesis: Real-Time Observation System for Distributed Workflows: Ensuring Execution Verification, Integrity and Compliance
+thesis: "Real-Time Observation System for Distributed Workflows: Ensuring Execution Verification, Integrity and Compliance"
 ---
 
 # {{ page.title }}
