@@ -1,4 +1,5 @@
 ---
+title: BSc in Computer Engineering
 degree: BSc in Computer Engineering
 institution: University of Aveiro
 location: Aveiro

@@ -1,4 +1,5 @@
 ---
+title: MSc in Cybersecurity
 degree: MSc in Cybersecurity
 institution: University of Aveiro
 location: Aveiro
