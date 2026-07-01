@@ -24,6 +24,9 @@ collections:
   miscellaneous:
     output: true
     permalink: /miscellaneous/:name/
+  opensource:
+    output: true
+    permalink: /opensource/:name/
 
 sass:
   style: compressed
