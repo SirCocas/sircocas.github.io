@@ -58,11 +58,9 @@ layout: default
 
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 {% for pub in pubs %}
-{% if pub.pdf %}
-- **[{{ pub.title }}]({{ pub.pdf }})** — {{ pub.venue }}, {{ pub.year }}
-{% else %}
-- **{{ pub.title }}** — {{ pub.venue }}, {{ pub.year }}
-{% endif %}
+- {% if pub.pdf %}[**{{ pub.title }}**]({{ pub.pdf }}){% else %}**{{ pub.title }}**{% endif %} — {{ pub.venue }}, {{ pub.year }}
+  {%- if pub.conference %} · [Conference]({{ pub.conference }}){% endif %}
+  {%- if pub.slides %} · [Slides]({{ pub.slides }}){% endif %}
 {% endfor %}
 
 
