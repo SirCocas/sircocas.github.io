@@ -2,11 +2,11 @@
 ---
 
 :root {
-  --accent-color: #3498db;
-  --text-color: #333;
-  --bg-color: #fafafa;
-  --heading-color: #2c3e50;
-  --link-color: #3498db;
+  --accent-color: #c7c1b3;
+  --text-color: #0f1116;
+  --bg-color: #f0eee9;
+  --heading-color: #70706d;
+  --link-color: #c7c1b3;
 }
 
 * {
@@ -50,7 +50,7 @@ h2 {
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #f0eee9;
 }
 
 h3 {
@@ -87,7 +87,7 @@ a:hover {
   gap: 2rem;
   padding: 1.5rem;
   background: rgba(255,255,255,0.95);
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #f0eee9;
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
@@ -103,5 +103,5 @@ a:hover {
 
 .tabs a.active {
   background: var(--accent-color);
-  color: white;
+  color: f0eee9;
 }
