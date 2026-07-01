@@ -3,7 +3,7 @@ title: SECURE
 role: Research on security pedagogy
 dates: 2026 -- 2027 
 year: 2026
-link:
+link: https://erasmus-secure.eu/
 ---
 
 # {{ page.title }}
