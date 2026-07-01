@@ -19,10 +19,12 @@ layout: default
 
 {% assign edu = site.education | sort: 'year' | reverse %}
 {% for edu in edu %}
+{% if edu.degree %}
 - **{{ edu.degree }}** — {{ edu.institution }}, {{ edu.location }}, {{ edu.dates }}
 {% if edu.thesis %}
 **Thesis title:** {{edu.thesis}}
 
+{% endif %}
 {% endif %}
 {% endfor %}
 
