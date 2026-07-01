@@ -151,6 +151,6 @@ layout: default
 
 {% for item in misc %}
 {% if item.category == "role" %}
-- **{{ item.title }}** — {{ item.organization }}, {{ item.year }}
+- **{{ item.title }}** — {{item.description}}; {{ item.organization }}, {{ item.year }}
 {% endif %}
 {% endfor %}
