@@ -1,9 +1,9 @@
 ---
-title: "Security in Large Scale Systems"
+title: "Teaching Assistant Volunteer"
 organization: Universidade de Aveiro, DETI
 year: 2024
 category: academic
-role: Teaching Assistant Volunteer
+role: Security in Large Scale Systems
 ---
 
 # {{ page.title }}

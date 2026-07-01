@@ -2,7 +2,7 @@
 title: "5th Visions for Future Communications Summit"
 organization: Organization Committee
 year: 2025
-category: academic
+category: volunteer
 role: Organization Committee
 ---
 
