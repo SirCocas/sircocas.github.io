@@ -70,6 +70,7 @@ layout: default
 {% assign projects = site.projects | sort: 'year' | reverse %}
 {% for project in projects %}
 - **{{ project.title }}** — {{ project.role }}, {{ project.dates }}
+  {%- if project.link %}· [LINK]({{ project.link }}){% endif %}
 {% endfor %}
 
 ## Miscellaneous
